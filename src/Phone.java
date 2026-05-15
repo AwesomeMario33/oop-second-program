@@ -1,5 +1,8 @@
 public class Phone {
-    private String os;           // ОС Телефона
+    // Задано модифікатор protected, тому що назву ОС телефона можна було б використати поза класом.
+    protected String os;         // ОС Телефона.
+
+    // Задано модифікатор private, тому що дані про батарею були б важливішими всередині класу аніж поза ним.
     private int battery_level;   // Рівень зарядки.
     private boolean battery_low; // Чи малий заряд?
 
